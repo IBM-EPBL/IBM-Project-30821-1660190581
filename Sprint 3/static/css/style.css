@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "montseratt";
+}
+nav{
+    background: black;
+    height: 72px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+label.logo
+{
+    color: #fff;
+    font-size: 18px;
+    line-height: 80px;
+    padding: 0px 45px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 14px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+
+}
+nav ul li a:hover{
+    background: #fff;
+    color: #333;
+}
+.background
+{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/113251.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.welcometext
+{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 20%;
+    text-align: center;
+}
+.welcometext h1
+{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+.welcometext a{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+
+}
+.welcometext a:hover{
+    background: #fff;
+    color: #333;
+}

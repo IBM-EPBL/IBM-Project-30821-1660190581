@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("s2.jpg"),-webkit-linear-gradient(bottom,#0250c5, #d43f8d);
+}
+.container{
+    width: 330px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 50px 35px 10px 35px;
+}
+.container header{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+
+}
+.container .form-outer{
+    width: 100%;
+    overflow: hidden;
+}
+.form-outer form{
+    display: flex;
+    width: 400%;
+}
+.form-outer form .page{
+    width:25%;
+    transition: margin-left  0.3s ease-in-out;
+}
+.form-outer form .page .title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form-outer form .page .field{
+    height: 45;
+    width: 330px;
+    margin: 45px 0;
+    display: flex;
+    position: relative;
+}
+.form-outer form .page .field input .label{
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+}
+.form-outer form .page .field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.form-outer form .page .field button{
+    width: 100%;
+    height: calc(500% + 5px);
+    margin-top: -20px;
+    border: none;
+    background: #d43f8d;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.form-outer form .page .field button:hover{
+    background: #000;
+
+}
+.form-outer form .page .field .btns button{
+    margin-top: -20!important;
+}
+form .page .field .btns button{
+    margin-right: 3px;
+    font-size: 17px;
+}
+form .page .field .btns button{
+    margin-right: 3px;
+    font-size: 17px;
+    padding: 34px;
+}
+.boot
+{
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.prev-1
+{
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 23px;
+    position: relative;
+    text-decoration: none
+}
+.next-1
+{
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 55%;
+}
